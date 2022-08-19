@@ -2,8 +2,8 @@
   class="profile"
   id="profile"
   style="
-    background: url('./assets/img/mlhblue.png');
-    background-size: cover;
+    background: url('./assets/img/terminal.png');
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   "
@@ -15,5 +15,14 @@
     </div>
     {% endfor %}
   </div> -->
-  <h1 class="site-title">{{ site.title }}</h1>
+  <h1 class="site-title" style="
+  position:relative;
+  text-align: center;
+  justify-content: center;
+  top: 100px;
+
+  ">
+    {{ site.title }}
+  </h1>
+
 </div>
